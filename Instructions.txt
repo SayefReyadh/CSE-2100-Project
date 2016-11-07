@@ -1,0 +1,8 @@
+Create a database in localhost as "java_chat" and import the java_chat sql there.
+
+Change the username and password for the localhost in the DatabaseConnection.java in the Server Project. 
+For using in a different pc/laptop change the localhost to the desired ip in ClientProject.java in the 
+Rising Tide Messenger.
+
+As we are using the database's own Blob variable to contain image
+the size of the image should not cross over 60-70 kb 
